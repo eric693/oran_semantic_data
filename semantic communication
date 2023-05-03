@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-02T03:43:47.775Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="LSxIgDIIFYEyb8k8h29U" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-03T02:44:42.108Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="q199gY52eY7jbB30hePw" version="21.2.3" type="github">
   <diagram name="Page-1" id="6z-JV87qSM2ZiCct5hmn">
-    <mxGraphModel dx="5643" dy="463" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5658" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -685,7 +685,7 @@
         <mxCell id="9hKcAbHttdBky7ioiaDc-106" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;&lt;span style=&quot;font-family: 微軟正黑體; color: red; font-weight: bold;&quot;&gt;向量維度 &lt;/span&gt;&lt;span style=&quot;font-family: 微軟正黑體; color: red; font-weight: bold;&quot;&gt;(m) &lt;/span&gt;&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;rotation=-90;" vertex="1" parent="1">
           <mxGeometry x="-3630" y="3620" width="150" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-107" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51); font-family: 微軟正黑體; font-size: 10px; text-indent: -28.8px;&quot;&gt;每個向量維度表示8/16/32 bits&lt;b style=&quot;text-indent: -0.3in; background-color: initial; color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;font-family: 微軟正黑體; color: red;&quot;&gt;二位元數量 &lt;/span&gt;&lt;span style=&quot;font-family: 微軟正黑體; color: red;&quot;&gt;(n)&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9hKcAbHttdBky7ioiaDc-107" value="&lt;b style=&quot;border-color: var(--border-color); color: rgb(255, 51, 51); font-family: 微軟正黑體; font-size: 10px; text-indent: -28.8px;&quot;&gt;每個向量維度表示8/16 bits&lt;b style=&quot;text-indent: -0.3in; background-color: initial; color: rgb(0, 0, 0); font-family: Helvetica;&quot;&gt;&lt;span style=&quot;font-family: 微軟正黑體; color: red;&quot;&gt;二位元數量 &lt;/span&gt;&lt;span style=&quot;font-family: 微軟正黑體; color: red;&quot;&gt;(n)&lt;/span&gt;&lt;/b&gt;&lt;br&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-3500" y="3790" width="250" height="10" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-108" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
@@ -695,12 +695,6 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-110" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-3400" y="3770" as="sourcePoint" />
-            <mxPoint x="-3400" y="3750" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-111" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-3360" y="3770" as="sourcePoint" />
             <mxPoint x="-3360" y="3750" as="targetPoint" />
@@ -728,9 +722,6 @@
           <mxGeometry x="-3450" y="3770" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-117" value="16" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3410" y="3770" width="20" height="20" as="geometry" />
-        </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-118" value="32" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-3370" y="3770" width="20" height="20" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-119" value="8" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -751,8 +742,71 @@
         <mxCell id="9hKcAbHttdBky7ioiaDc-128" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="-3450" y="3720" width="20" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-131" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;1.56%(1)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-3470" y="3720" width="60" height="30" as="geometry" />
+        <mxCell id="9hKcAbHttdBky7ioiaDc-131" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1.56%(1)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3480" y="3725" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-133" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;3.125%(4)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3480" y="3690" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-134" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3360" y="3770" as="sourcePoint" />
+            <mxPoint x="-3360" y="3750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-140" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-3360" y="3770" as="sourcePoint" />
+            <mxPoint x="-3360" y="3750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-141" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="-3370" y="3640" width="20" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-142" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-3370" y="3680" width="20" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-143" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+          <mxGeometry x="-3370" y="3720" width="20" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-144" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;1.56%(2)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3400" y="3725" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-145" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;5.4%(12)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3400" y="3690" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-152" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;4.68%(10)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3480" y="3645" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-153" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;7.68%(40)&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-3400" y="3645" width="60" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-154" value="&lt;div&gt;&amp;nbsp;a serving cell received.&amp;nbsp; &amp;nbsp; 00&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;takes over two serving cells.&amp;nbsp; &amp;nbsp;01&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;receives three serving cells. 10&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;gets four serving cells.&amp;nbsp; 11&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4470" y="3640" width="190" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-155" value="&lt;div&gt;&amp;nbsp;vrb directly mapped to prb.&amp;nbsp; 0&lt;/div&gt;&lt;div&gt;&amp;nbsp;vrb to prb is an interleaved mapping way. 1&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4280" y="3510" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-156" value="&lt;div&gt;&amp;nbsp;sent new data.&amp;nbsp; 0&lt;/div&gt;&lt;div&gt;&amp;nbsp;it duplicates transmission. 1&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4235" y="3560" width="165" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-157" value="&lt;div&gt;&amp;nbsp;version zero redundancy indicates first control information.&amp;nbsp; &amp;nbsp; &amp;nbsp;00&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;second control information required for version one redundancy.&amp;nbsp; 01&lt;/div&gt;&lt;div&gt;&amp;nbsp;redundancy version two mapped to third control information.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;three of redundancy version shows fourth control information.&amp;nbsp; &amp;nbsp; 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4410" y="3870" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-158" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;From ue to gnb information&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&amp;nbsp; 0&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;This message will send downlink information. 1&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4340" y="3750" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-159" value="&lt;div&gt;&amp;nbsp;sent negative one db. 00&lt;/div&gt;&lt;div&gt;&amp;nbsp;transmits zero db.&amp;nbsp; &amp;nbsp;01&lt;/div&gt;&amp;nbsp;delivers&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;one db.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;transfers three db.&amp;nbsp; 11&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4060" y="3630" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-160" value="&lt;div&gt;&amp;nbsp;version zero redundancy indicates first control information.&amp;nbsp; &amp;nbsp; &amp;nbsp;00&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;second control information required for version one redundancy.&amp;nbsp; 01&lt;/div&gt;&lt;div&gt;&amp;nbsp;redundancy version two mapped to third control information.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;three of redundancy version shows fourth control information.&amp;nbsp; &amp;nbsp; 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4400" y="4010" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-161" value="&lt;div&gt;&amp;nbsp;version zero redundancy indicates first control information.&amp;nbsp; &amp;nbsp; &amp;nbsp;00&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;second control information required for version one redundancy.&amp;nbsp; 01&lt;/div&gt;&lt;div&gt;&amp;nbsp;redundancy version two mapped to third control information.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;three of redundancy version shows fourth control information.&amp;nbsp; &amp;nbsp; 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4400" y="4120" width="370" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-162" value="&lt;div&gt;&amp;nbsp;version zero redundancy indicates first control information.&amp;nbsp; &amp;nbsp; &amp;nbsp;00&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;second control information required for version one redundancy.&amp;nbsp; 01&lt;/div&gt;&lt;div&gt;&amp;nbsp;redundancy version two mapped to third control information.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;three of redundancy version shows fourth control information.&amp;nbsp; &amp;nbsp; 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4395" y="4290" width="370" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
