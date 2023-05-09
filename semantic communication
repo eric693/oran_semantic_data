@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T13:25:52.678Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="eg2jE7b3jHpfOXgUkKEN" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T14:07:28.427Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="B4wfmmiqQTBc6PtG3nWF" version="21.2.3" type="github">
   <diagram name="Page-1" id="6z-JV87qSM2ZiCct5hmn">
-    <mxGraphModel dx="6430" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6234" dy="864" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -937,7 +937,7 @@
         <mxCell id="9hKcAbHttdBky7ioiaDc-218" value="zero point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="197.75" y="3460" width="62.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-219" value="round( 39.23 * [&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;0.1000&lt;/font&gt;,&amp;nbsp; 0.2000,&amp;nbsp; 0.5000,&amp;nbsp; 1.2000,&amp;nbsp; 3.0000,&amp;nbsp; 2.1000, -2.1000, -3.5000] ) - ( -137 ) &lt;br&gt;= [ 0, 149, 255, 73, 255, 149, 255, 73]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="9hKcAbHttdBky7ioiaDc-219" value="round( 39.23 * [&amp;nbsp;&lt;font style=&quot;border-color: var(--border-color);&quot; color=&quot;#ff3333&quot;&gt;0.1000&lt;/font&gt;,&amp;nbsp; 0.2000,&amp;nbsp; 0.5000,&amp;nbsp; 1.2000,&amp;nbsp; 3.0000,&amp;nbsp; 2.1000, -2.1000, -3.5000] ) - ( -137 ) &lt;br&gt;= [ &lt;font color=&quot;#ff3333&quot;&gt;141&lt;/font&gt;, 145, 157, 184, 255, 219, 55, 0]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="360" y="3490" width="520" height="52" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-220" value="Quantization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -955,7 +955,7 @@
         <mxCell id="9hKcAbHttdBky7ioiaDc-224" value="Float point number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="60.5" y="3634" width="104" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-225" value="&lt;div&gt;tensor([&lt;span style=&quot;background-color: initial;&quot;&gt;[0&lt;/span&gt;., 0., 0., 0., 0., 0., 0., 0.&lt;span style=&quot;background-color: initial;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;])&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9hKcAbHttdBky7ioiaDc-225" value="&lt;div&gt;tensor([&lt;span style=&quot;background-color: initial;&quot;&gt;[1&lt;/span&gt;., 0., 0., 0., 1., 1., 0., 1.&lt;span style=&quot;background-color: initial;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;])&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="350" y="3665.5" width="200" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-226" value="bit stream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -1024,7 +1024,7 @@
         <mxCell id="9hKcAbHttdBky7ioiaDc-240" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-241" target="9hKcAbHttdBky7ioiaDc-245">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-241" value="&lt;div&gt;tensor([&lt;span style=&quot;background-color: initial;&quot;&gt;[&lt;font color=&quot;#ff3333&quot;&gt;1&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;.&lt;/font&gt;, &lt;font color=&quot;#ff3333&quot;&gt;1.&lt;/font&gt;, 0., 0., 0., 0., 0., 0.&lt;span style=&quot;background-color: initial;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;])&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9hKcAbHttdBky7ioiaDc-241" value="tensor([[1., &lt;font color=&quot;#ff3333&quot;&gt;1.&lt;/font&gt;, 0., 0., 1., 1., 0., 1.&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;border-color: var(--border-color); background-color: initial;&quot;&gt;])&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="590" y="3665.5" width="200" height="49" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-242" value="bit stream ( random bit error )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
@@ -1039,7 +1039,7 @@
         <mxCell id="9hKcAbHttdBky7ioiaDc-244" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-245" target="9hKcAbHttdBky7ioiaDc-248">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-245" value="192" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9hKcAbHttdBky7ioiaDc-245" value="205" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="650" y="3857.5" width="80" height="52" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-246" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="9hKcAbHttdBky7ioiaDc-225">
@@ -1051,7 +1051,7 @@
         <mxCell id="9hKcAbHttdBky7ioiaDc-248" value="de-quantization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="500" y="3857.5" width="100" height="52" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-249" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;x =&amp;nbsp;&lt;/span&gt;[ 192, 149, 255, 73, 255, 149, 255, 73] + 85 / 680&lt;br&gt;= [ &lt;font color=&quot;#ff3333&quot;&gt;0.4073&lt;/font&gt;, 0.3441, 0.5000, 0.2324, 0.5000, 0.3441, 0.5000, 0.2324]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+        <mxCell id="9hKcAbHttdBky7ioiaDc-249" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;x =&amp;nbsp;&lt;/span&gt;[ &lt;font color=&quot;#ff3333&quot;&gt;205&lt;/font&gt;, 145, 157, 184, 255, 219, 55, 0] + (-137) / 39.23&lt;br&gt;= [ &lt;font color=&quot;#ff3333&quot;&gt;1.733&lt;/font&gt;, 0.2039, 0.5000, 1.2, 3.0, 2.09, -2.09, -3.49]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
           <mxGeometry x="98" y="3951.5" width="380" height="52" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-250" value="de-quantization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
