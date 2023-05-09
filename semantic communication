@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-03T02:53:14.475Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="UyLz-9yyKDxLiCe9hbmm" version="21.2.3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-09T08:27:00.607Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="llgn1biLGSenA9cVBnHV" version="21.2.3" type="github">
   <diagram name="Page-1" id="6z-JV87qSM2ZiCct5hmn">
-    <mxGraphModel dx="5658" dy="405" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="5966" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -790,8 +790,8 @@
         <mxCell id="9hKcAbHttdBky7ioiaDc-156" value="&lt;div&gt;&amp;nbsp;sent new data.&amp;nbsp; 0&lt;/div&gt;&lt;div&gt;&amp;nbsp;it duplicates transmission. 1&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-4235" y="3560" width="165" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-157" value="&lt;div&gt;&amp;nbsp;version zero redundancy indicates first control information.&amp;nbsp; &amp;nbsp; &amp;nbsp;00&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;second control information required for version one redundancy.&amp;nbsp; 01&lt;/div&gt;&lt;div&gt;&amp;nbsp;redundancy version two mapped to third control information.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;three of redundancy version shows fourth control information.&amp;nbsp; &amp;nbsp; 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-4410" y="3870" width="370" height="70" as="geometry" />
+        <mxCell id="9hKcAbHttdBky7ioiaDc-157" value="&lt;div&gt;&amp;nbsp;pucch indicates first resource.&amp;nbsp; &amp;nbsp; &amp;nbsp;000&lt;/div&gt;&lt;div&gt;&amp;nbsp;pucch resource gets second.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;001&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;receives third resource in pdcch.&amp;nbsp; 010&lt;/div&gt;&lt;div&gt;&amp;nbsp;maps fourth pucch resource.&amp;nbsp; &amp;nbsp; &amp;nbsp;011&lt;/div&gt;&lt;div&gt;&amp;nbsp;means fifth pucch resource.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;100&lt;/div&gt;&lt;div&gt;&amp;nbsp;represents sixth pucch resource.&amp;nbsp; 101&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;presents seventh pucch resource.&amp;nbsp; 110&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;denotes eighth pucch resource.&amp;nbsp; 111&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4590" y="3850" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-158" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;From ue to gnb information&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&amp;nbsp; 0&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;This message will send downlink information. 1&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-4340" y="3750" width="260" height="40" as="geometry" />
@@ -799,14 +799,182 @@
         <mxCell id="9hKcAbHttdBky7ioiaDc-159" value="&lt;div&gt;&amp;nbsp;sent negative one db. 00&lt;/div&gt;&lt;div&gt;&amp;nbsp;transmits zero db.&amp;nbsp; &amp;nbsp;01&lt;/div&gt;&amp;nbsp;delivers&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;one db.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;transfers three db.&amp;nbsp; 11&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
           <mxGeometry x="-4060" y="3630" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-160" value="&lt;div&gt;&amp;nbsp;version zero redundancy indicates first control information.&amp;nbsp; &amp;nbsp; &amp;nbsp;00&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;second control information required for version one redundancy.&amp;nbsp; 01&lt;/div&gt;&lt;div&gt;&amp;nbsp;redundancy version two mapped to third control information.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;three of redundancy version shows fourth control information.&amp;nbsp; &amp;nbsp; 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-4400" y="4010" width="370" height="70" as="geometry" />
+        <mxCell id="9hKcAbHttdBky7ioiaDc-160" value="&lt;div&gt;&amp;nbsp;the first slot is harq feedback. 000&lt;/div&gt;&lt;div&gt;&amp;nbsp;harq feedback from the second slot. 001&lt;/div&gt;&lt;div&gt;&amp;nbsp;from the third slot is harq feedback. 010&lt;/div&gt;&lt;div&gt;&amp;nbsp;harq feedback starts the fourth slot. 011&lt;/div&gt;&lt;div&gt;&amp;nbsp;beginning at the fifth slot indicates harq feedback. 100&lt;/div&gt;&lt;div&gt;&amp;nbsp;harq feedback will start with the sixth slot. 101&lt;/div&gt;&lt;div&gt;&amp;nbsp;feedback from the seventh slot of the harq. 110&lt;/div&gt;&lt;div&gt;&amp;nbsp;eighth slot harq feedback. 111&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4160" y="3940" width="300" height="130" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-161" value="&lt;div&gt;&amp;nbsp;version zero redundancy indicates first control information.&amp;nbsp; &amp;nbsp; &amp;nbsp;00&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;second control information required for version one redundancy.&amp;nbsp; 01&lt;/div&gt;&lt;div&gt;&amp;nbsp;redundancy version two mapped to third control information.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;three of redundancy version shows fourth control information.&amp;nbsp; &amp;nbsp; 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-4400" y="4120" width="370" height="70" as="geometry" />
+        <mxCell id="9hKcAbHttdBky7ioiaDc-161" value="&lt;div&gt;&amp;nbsp;first index will represents time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0000&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain will map second row index.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0001&lt;/div&gt;&lt;div&gt;&amp;nbsp;the third index in time domain table.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0010&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain shows the fourth row field.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0011&lt;/div&gt;&lt;div&gt;&amp;nbsp;the fifth index indicated time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0100&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain resource allocated to sixth row index.&amp;nbsp; 0101&lt;/div&gt;&lt;div&gt;&amp;nbsp;seventh row index expresses time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp;0110&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain maps the eighth index.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0111&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;the nineth row index is time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1000&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain gets to ten index.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1001&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain means eleven row field.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1010&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain directly shows twelve row index.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1011&lt;/div&gt;&lt;div&gt;&amp;nbsp;the thirteen index would implied to time domain.&amp;nbsp; &amp;nbsp; 1100&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;fourteen row index will match time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp; 1101&lt;/div&gt;&lt;div&gt;&amp;nbsp;fifteen row index indicates time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1111&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-3980" y="4160" width="310" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="9hKcAbHttdBky7ioiaDc-162" value="&lt;div&gt;&amp;nbsp;version zero redundancy indicates first control information.&amp;nbsp; &amp;nbsp; &amp;nbsp;00&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;second control information required for version one redundancy.&amp;nbsp; 01&lt;/div&gt;&lt;div&gt;&amp;nbsp;redundancy version two mapped to third control information.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;three of redundancy version shows fourth control information.&amp;nbsp; &amp;nbsp; 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-4395" y="4290" width="370" height="70" as="geometry" />
+        <mxCell id="9hKcAbHttdBky7ioiaDc-162" value="&lt;div&gt;&amp;nbsp;base station includes harq process number one sends to user equipment. 0000&lt;/div&gt;&lt;div&gt;&amp;nbsp;gnb includes harq process number two sent to mobile device.&amp;nbsp; &amp;nbsp;0001&lt;/div&gt;&lt;div&gt;&amp;nbsp;gnb carries harq process number three transmits to mobile device.&amp;nbsp; &amp;nbsp; 0010&lt;/div&gt;&lt;div&gt;&amp;nbsp;gnb includes harq process number four will send user equipment.&amp;nbsp; &amp;nbsp; 0011&lt;/div&gt;&lt;div&gt;&amp;nbsp;gnb includes harq process number five to mobile device.&amp;nbsp; &amp;nbsp; &amp;nbsp;0100&lt;/div&gt;&lt;div&gt;&amp;nbsp;base station includes harq process number six can deliver mobile device.&amp;nbsp; 0101&lt;/div&gt;&lt;div&gt;&amp;nbsp;gnb indicates harq process number seven will transmit ue.&amp;nbsp; 0110&lt;/div&gt;&lt;div&gt;&amp;nbsp;gnb makes harq process number eight to mobile device.&amp;nbsp; &amp;nbsp;0111&lt;/div&gt;&lt;div&gt;&amp;nbsp;base station takes harq process number nine to mobile device.&amp;nbsp; 1000&lt;/div&gt;&lt;div&gt;&amp;nbsp;harq process number ten starts gnb to ue.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;1001&lt;/div&gt;&lt;div&gt;&amp;nbsp;base station includes harq process number eleven to mobile device.&amp;nbsp; 1010&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;gnb carries harq process number twelve to user equipment.&amp;nbsp; &amp;nbsp; 1011&lt;/div&gt;&lt;div&gt;&amp;nbsp;base station carry harq process number thirteen to mobile device.&amp;nbsp; 1100&lt;/div&gt;&lt;div&gt;&amp;nbsp;gnb gets harq process number fourteen sends to ue.&amp;nbsp; &amp;nbsp;1101&lt;/div&gt;&lt;div&gt;&amp;nbsp;gnb has harq process number fifteen delivers mobile device.&amp;nbsp; 1110&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;harq process number sixteen from gnb to ue.&amp;nbsp; &amp;nbsp;1111&amp;nbsp;&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4019" y="4430" width="429" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-163" value="&lt;div&gt;&amp;nbsp;mcs table maps to zero index.&amp;nbsp; &amp;nbsp; &amp;nbsp;00000&lt;/div&gt;&lt;div&gt;&amp;nbsp;from one index indicates mcs table.&amp;nbsp; &amp;nbsp;00001&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs index equals to two.&amp;nbsp; &amp;nbsp;00010&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs field maps the third index.&amp;nbsp; &amp;nbsp;00011&lt;/div&gt;&lt;div&gt;&amp;nbsp;indicating fourth index in mcs table.&amp;nbsp; 00100&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs field indicated five.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;00101&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs index will include six.&amp;nbsp; &amp;nbsp;00110&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs field denotes seven.&amp;nbsp; &amp;nbsp; &amp;nbsp;00111&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs index reveals eight.&amp;nbsp; &amp;nbsp; &amp;nbsp;01000&lt;/div&gt;&lt;div&gt;&amp;nbsp;specifies nine index in mcs table.&amp;nbsp; &amp;nbsp;01001&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs table indicates ten index.&amp;nbsp; &amp;nbsp;01010&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs index will map to eleven.&amp;nbsp; &amp;nbsp; 01011&lt;/div&gt;&lt;div&gt;&amp;nbsp;the twelve index at mcs table.&amp;nbsp; &amp;nbsp; 01100&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs index maps thirteen line.&amp;nbsp; &amp;nbsp; &amp;nbsp;01101&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs table shows fourteen line.&amp;nbsp; &amp;nbsp; 01110&lt;/div&gt;&lt;div&gt;&amp;nbsp;the mcs table implied fifteen index.&amp;nbsp; &amp;nbsp;01111&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs index directly mapped to sixteen.&amp;nbsp; 10000&lt;/div&gt;&lt;div&gt;&amp;nbsp;the seventeen field from mcs table.&amp;nbsp; &amp;nbsp;10001&lt;/div&gt;&lt;div&gt;&amp;nbsp;the eighteen index at mcs table.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;10010&lt;/div&gt;&lt;div&gt;&amp;nbsp;from the nineteen index in mcs table.&amp;nbsp; &amp;nbsp;10011&lt;/div&gt;&lt;div&gt;&amp;nbsp;at mcs table the twenty field.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 10100&lt;/div&gt;&lt;div&gt;&amp;nbsp;starts twenty first index to mcs table.&amp;nbsp; &amp;nbsp; 10101&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs table represents twenty second.&amp;nbsp; &amp;nbsp; 10110&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs index signifies twenty third.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 10111&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs table means to twenty fourth index.&amp;nbsp; &amp;nbsp; 11000&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs index maps to twenty fiveth.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;11001&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs table indicates twenty sixth field.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 11010&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs index will map twenty seventh.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 11011&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs table matches twenty eighth index.&amp;nbsp; &amp;nbsp; &amp;nbsp; 11100&lt;/div&gt;&lt;div&gt;&amp;nbsp;begins from twenty nineth index in mcs table. 11101&lt;/div&gt;&lt;div&gt;&amp;nbsp;follow thirty index to mcs table.&amp;nbsp; &amp;nbsp;11110&lt;/div&gt;&lt;div&gt;&amp;nbsp;mcs index will make thirty first.&amp;nbsp; &amp;nbsp;11111&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4530" y="4430" width="290" height="470" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-164" value="&lt;div&gt;&amp;nbsp;numbers of resource blocks ranges is from eleven to fifteen.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;total of resource blocks will start with sixteen to twenty two.&amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;sum of resource blocks begins at twenty third to thirty first.&amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;amounts of resource blocks started thirty second to fourty four.&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;fourty five to sixty three starts of resource blocks.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&amp;nbsp;the number of resource blocks ranges from sixty four to ninety.&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;the resource blocks has ninety first to one hundred twenty seven.&amp;nbsp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;the resource blocks starts one hundred twenty eight to one eighty.&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;resource blocks total numbers range is one hundred eighty first to two hundred fifty five.&lt;/div&gt;&amp;nbsp;resource blocks will begin at two hundred fifty six to two hundred seventy five." style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-3190" y="4270" width="480" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-165" value="0.5-(0.125) = 0.375" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1860" y="3000" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-166" value="max-min" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1830" y="2970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-167" value="2^8-1/ 0.375 = 680" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1700" y="3000" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-168" value="alpha" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1670" y="2970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-169" value="0.125 * 680 = 85" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1540" y="3000" width="120" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-170" value="zero point" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1510" y="2970" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-171" value="round( 680 * [ 0.1250, 0.3445, 0.5, 0.2323, 0.5, 0.3445, 0.5, 0.2323] ) - ( 85 ) &lt;br&gt;= [ 4, 7, 18, 44, 109, 76, -76, -127]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1380" y="3000" width="450" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-172" value="Quantization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1180" y="2970.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-175" value="quantization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1533" y="3174" width="103" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-177" value="&lt;div&gt;tensor([&lt;span style=&quot;background-color: initial;&quot;&gt;[0&lt;/span&gt;., 0., 0., 0., 0., 0., 0., 0.&lt;span style=&quot;background-color: initial;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;])&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="3175.5" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-178" value="bit stream" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1347" y="3147" width="114" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-179" value="-0.1250" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1829.5" y="3122" width="103" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-180" value="0.1250" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1829.5" y="3230.5" width="103" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-181" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-180" target="9hKcAbHttdBky7ioiaDc-175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1659.5" y="3210.5" as="sourcePoint" />
+            <mxPoint x="-1679" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-182" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-179" target="9hKcAbHttdBky7ioiaDc-175">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1679.5" y="3100.5" as="sourcePoint" />
+            <mxPoint x="-1679" y="3200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-185" value="Float point number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1829.5" y="3092" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-186" value="Float point number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1830" y="3200.5" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-187" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-165" target="9hKcAbHttdBky7ioiaDc-167">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1680" y="3140" as="sourcePoint" />
+            <mxPoint x="-1630" y="3090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-188" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-167" target="9hKcAbHttdBky7ioiaDc-169">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1530" y="3120" as="sourcePoint" />
+            <mxPoint x="-1480" y="3070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-189" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-169" target="9hKcAbHttdBky7ioiaDc-171">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1380" y="3130" as="sourcePoint" />
+            <mxPoint x="-1330" y="3080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-190" value="" style="endArrow=classic;html=1;rounded=0;entryX=1;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-175" target="9hKcAbHttdBky7ioiaDc-165">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1480" y="3172" as="sourcePoint" />
+            <mxPoint x="-1430" y="3122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-191" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-175" target="9hKcAbHttdBky7ioiaDc-177">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1500" y="3340" as="sourcePoint" />
+            <mxPoint x="-1450" y="3290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-192" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-193" target="9hKcAbHttdBky7ioiaDc-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-193" value="&lt;div&gt;tensor([&lt;span style=&quot;background-color: initial;&quot;&gt;[&lt;font color=&quot;#ff3333&quot;&gt;1&lt;/font&gt;&lt;/span&gt;&lt;font color=&quot;#ff3333&quot;&gt;.&lt;/font&gt;, &lt;font color=&quot;#ff3333&quot;&gt;1.&lt;/font&gt;, 0., 0., 0., 0., 0., 0.&lt;span style=&quot;background-color: initial;&quot;&gt;]&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;])&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="3175.5" width="200" height="49" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-194" value="bit stream ( random bit error )" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1138.5" y="3147" width="177" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-195" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-177" target="9hKcAbHttdBky7ioiaDc-193">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1290" y="3380" as="sourcePoint" />
+            <mxPoint x="-1240" y="3330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-196" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-197" target="9hKcAbHttdBky7ioiaDc-200">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-197" value="192" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="3367.5" width="80" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-198" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" target="9hKcAbHttdBky7ioiaDc-177">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1155" y="3052" as="sourcePoint" />
+            <mxPoint x="-1330" y="3080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-199" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-200" target="9hKcAbHttdBky7ioiaDc-204">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-200" value="de-quantization" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1240" y="3367.5" width="100" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-201" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;x =&amp;nbsp;&lt;/span&gt;[ 192, 149, 255, 73, 255, 149, 255, 73] + 85 / 680&lt;br&gt;= [ &lt;font color=&quot;#ff3333&quot;&gt;0.4073&lt;/font&gt;, 0.3441, 0.5000, 0.2324, 0.5000, 0.3441, 0.5000, 0.2324]" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="3491.5" width="380" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-202" value="de-quantization" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1230" y="3461.5" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-203" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-200" target="9hKcAbHttdBky7ioiaDc-201">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1770" y="3430" as="sourcePoint" />
+            <mxPoint x="-1570" y="3390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-204" value="0.4073" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1390" y="3367.5" width="103" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-205" value="-0.4073" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1563.75" y="3322" width="103" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-206" value="0.4073" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1563.25" y="3409.5" width="103" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-207" value="Float point number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1563.75" y="3292" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-208" value="Float point number" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1563.75" y="3379.5" width="104" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-209" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-204" target="9hKcAbHttdBky7ioiaDc-205">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1690" y="3390" as="sourcePoint" />
+            <mxPoint x="-1470" y="3380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-210" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9hKcAbHttdBky7ioiaDc-204" target="9hKcAbHttdBky7ioiaDc-206">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-1800" y="3430" as="sourcePoint" />
+            <mxPoint x="-1750" y="3380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9hKcAbHttdBky7ioiaDc-211" value="0.1000,  0.2000,  0.5000,  1.2000,  3.0000,  2.1000, -2.1000, -3.5000" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-2267" y="3134" width="400" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
