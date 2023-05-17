@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-17T15:34:24.197Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="CskWnClIkRKsYS6lsF3V" version="21.2.9" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-17T17:08:55.664Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="biDHhvVaip79_z5fj4eZ" version="21.2.9" type="github">
   <diagram name="Page-1" id="6z-JV87qSM2ZiCct5hmn">
-    <mxGraphModel dx="6755" dy="1035" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="6430" dy="997" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -785,22 +785,22 @@
           <mxGeometry x="-4470" y="3640" width="190" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-155" value="&lt;div&gt;&amp;nbsp;vrb directly mapped to prb.&amp;nbsp; 0&lt;/div&gt;&lt;div&gt;&amp;nbsp;vrb to prb is an interleaved mapping way. 1&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-4280" y="3510" width="240" height="40" as="geometry" />
+          <mxGeometry x="-4320" y="3557" width="240" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-156" value="&lt;div&gt;&amp;nbsp;sent new data.&amp;nbsp; 0&lt;/div&gt;&lt;div&gt;&amp;nbsp;it duplicates transmission. 1&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-4235" y="3560" width="165" height="40" as="geometry" />
+          <mxGeometry x="-4240" y="3637" width="165" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-157" value="&lt;div&gt;&amp;nbsp;pucch indicates first resource.&amp;nbsp; &amp;nbsp; &amp;nbsp;000&lt;/div&gt;&lt;div&gt;&amp;nbsp;pucch resource gets second.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;001&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;receives third resource in pdcch.&amp;nbsp; 010&lt;/div&gt;&lt;div&gt;&amp;nbsp;maps fourth pucch resource.&amp;nbsp; &amp;nbsp; &amp;nbsp;011&lt;/div&gt;&lt;div&gt;&amp;nbsp;means fifth pucch resource.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;100&lt;/div&gt;&lt;div&gt;&amp;nbsp;represents sixth pucch resource.&amp;nbsp; 101&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;presents seventh pucch resource.&amp;nbsp; 110&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;denotes eighth pucch resource.&amp;nbsp; 111&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-4590" y="3850" width="220" height="130" as="geometry" />
+          <mxGeometry x="-4720" y="3645" width="220" height="130" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-158" value="&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;From ue to gnb information&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;.&amp;nbsp; 0&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;This message will send downlink information. 1&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-4340" y="3750" width="260" height="40" as="geometry" />
+          <mxGeometry x="-4450" y="3735" width="260" height="40" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-159" value="&lt;div&gt;&amp;nbsp;sent negative one db. 00&lt;/div&gt;&lt;div&gt;&amp;nbsp;transmits zero db.&amp;nbsp; &amp;nbsp;01&lt;/div&gt;&amp;nbsp;delivers&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;one db.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;/span&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp;transfers three db.&amp;nbsp; 11&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-4060" y="3630" width="140" height="70" as="geometry" />
+          <mxGeometry x="-4170" y="3700" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-160" value="&lt;div&gt;&amp;nbsp;the first slot is harq feedback. 000&lt;/div&gt;&lt;div&gt;&amp;nbsp;harq feedback from the second slot. 001&lt;/div&gt;&lt;div&gt;&amp;nbsp;from the third slot is harq feedback. 010&lt;/div&gt;&lt;div&gt;&amp;nbsp;harq feedback starts the fourth slot. 011&lt;/div&gt;&lt;div&gt;&amp;nbsp;beginning at the fifth slot indicates harq feedback. 100&lt;/div&gt;&lt;div&gt;&amp;nbsp;harq feedback will start with the sixth slot. 101&lt;/div&gt;&lt;div&gt;&amp;nbsp;feedback from the seventh slot of the harq. 110&lt;/div&gt;&lt;div&gt;&amp;nbsp;eighth slot harq feedback. 111&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
-          <mxGeometry x="-4160" y="3940" width="300" height="130" as="geometry" />
+          <mxGeometry x="-4760" y="3790" width="300" height="130" as="geometry" />
         </mxCell>
         <mxCell id="9hKcAbHttdBky7ioiaDc-161" value="&lt;div&gt;&amp;nbsp;first index will represents time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0000&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain will map second row index.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0001&lt;/div&gt;&lt;div&gt;&amp;nbsp;the third index in time domain table.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;0010&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain shows the fourth row field.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0011&lt;/div&gt;&lt;div&gt;&amp;nbsp;the fifth index indicated time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0100&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain resource allocated to sixth row index.&amp;nbsp; 0101&lt;/div&gt;&lt;div&gt;&amp;nbsp;seventh row index expresses time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp;0110&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain maps the eighth index.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 0111&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;the nineth row index is time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1000&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain gets to ten index.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1001&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain means eleven row field.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1010&lt;/div&gt;&lt;div&gt;&amp;nbsp;time domain directly shows twelve row index.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1011&lt;/div&gt;&lt;div&gt;&amp;nbsp;the thirteen index would implied to time domain.&amp;nbsp; &amp;nbsp; 1100&amp;nbsp;&lt;/div&gt;&lt;div&gt;&amp;nbsp;fourteen row index will match time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp; 1101&lt;/div&gt;&lt;div&gt;&amp;nbsp;fifteen row index indicates time domain.&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; 1111&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
           <mxGeometry x="-3980" y="4160" width="310" height="230" as="geometry" />
@@ -1106,6 +1106,9 @@
         </mxCell>
         <mxCell id="dsSIp6zjDoXaBoWrPnWt-40" value="二進制層將二進制轉換為浮點數" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1117.5" y="5170" width="345" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="dsSIp6zjDoXaBoWrPnWt-64" value="&lt;div&gt;version zero redundancy indicates first control information.&amp;nbsp; &amp;nbsp; &amp;nbsp;00&amp;nbsp;&lt;/div&gt;&lt;div&gt;second control information required for version one redundancy.&amp;nbsp; 01&lt;/div&gt;&lt;div&gt;redundancy version two mapped to third control information.&amp;nbsp; &amp;nbsp; &amp;nbsp; 10&lt;/div&gt;&lt;div&gt;three of redundancy version shows fourth control information.&amp;nbsp; &amp;nbsp; 11&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="-4738" y="3542" width="380" height="70" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
